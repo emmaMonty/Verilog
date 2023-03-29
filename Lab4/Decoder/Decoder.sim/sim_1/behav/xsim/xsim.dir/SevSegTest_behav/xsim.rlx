@@ -1,0 +1,12 @@
+
+{ 
+    crc :  15825666100551595988  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 9650b317814841dfb2bff3d6789a6a2e --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SevSegTest_behav xil_defaultlib.SevSegTest xil_defaultlib.glbl" , 
+    buildDate : "May 24 2019" , 
+    buildTime : "14:51:52" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/SevSegTest_behav/xsimk\"   \"xsim.dir/SevSegTest_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/SevSegTest_behav/obj/xsim_1.lnx64.o\" -L\"/home/ecestudent/tools/Xilinx/Vivado/2019.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

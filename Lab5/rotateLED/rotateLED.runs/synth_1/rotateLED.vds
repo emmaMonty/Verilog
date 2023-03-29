@@ -1,0 +1,336 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 31 15:17:08 2021
+# Process ID: 39151
+# Current directory: /home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.runs/synth_1
+# Command line: vivado -log rotateLED.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rotateLED.tcl
+# Log file: /home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.runs/synth_1/rotateLED.vds
+# Journal file: /home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source rotateLED.tcl -notrace
+Command: synth_design -top rotateLED -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 39316 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1913.234 ; gain = 152.688 ; free physical = 110 ; free virtual = 15962
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'rotateLED' [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/new/rotateLED.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Dregister' [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/new/Dregister.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux' [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/new/mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (1#1) [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/new/mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DFF' [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/DFF.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dlatch' [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/dlatch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dlatch' (2#1) [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/dlatch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DFF' (3#1) [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/DFF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Dregister' (4#1) [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/new/Dregister.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ClockDivder' [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/ECE2700/Lab2/ClockDivider/ClockDivider.srcs/sources_1/new/ClockDivder.v:22]
+	Parameter PRESCALER bound to: 25000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ClockDivder' (5#1) [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/ECE2700/Lab2/ClockDivider/ClockDivider.srcs/sources_1/new/ClockDivder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'rotateLED' (6#1) [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/new/rotateLED.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1966.984 ; gain = 206.438 ; free physical = 194 ; free virtual = 15985
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1972.922 ; gain = 212.375 ; free physical = 191 ; free virtual = 15983
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1972.922 ; gain = 212.375 ; free physical = 191 ; free virtual = 15983
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/rotateLED_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/rotateLED_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2097.594 ; gain = 0.000 ; free physical = 120 ; free virtual = 15879
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2097.594 ; gain = 0.000 ; free physical = 120 ; free virtual = 15879
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 171 ; free virtual = 15961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 166 ; free virtual = 15961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 165 ; free virtual = 15961
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'q_reg' [/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/dlatch.v:30]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 151 ; free virtual = 15954
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
++---Registers : 
+	               25 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ClockDivder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
++---Registers : 
+	               25 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 131 ; free virtual = 15942
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 113 ; free virtual = 15821
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     6|
+|3     |LUT1   |     1|
+|4     |LUT2   |     2|
+|5     |LUT3   |     1|
+|6     |LUT4   |     6|
+|7     |LUT5   |     8|
+|8     |LUT6   |     1|
+|9     |FDRE   |    26|
+|10    |LD     |    16|
+|11    |IBUF   |    11|
+|12    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+------------+------+
+|      |Instance          |Module      |Cells |
++------+------------------+------------+------+
+|1     |top               |            |    87|
+|2     |  CD              |ClockDivder |    43|
+|3     |  \genblk1[1].pt  |Dregister   |     3|
+|4     |    DR            |DFF_32      |     2|
+|5     |      d1          |dlatch_34   |     1|
+|6     |      d2          |dlatch_35   |     1|
+|7     |    m2            |mux_33      |     1|
+|8     |  \genblk1[2].pt  |Dregister_0 |     3|
+|9     |    DR            |DFF_28      |     2|
+|10    |      d1          |dlatch_30   |     1|
+|11    |      d2          |dlatch_31   |     1|
+|12    |    m2            |mux_29      |     1|
+|13    |  \genblk1[3].pt  |Dregister_1 |     3|
+|14    |    DR            |DFF_24      |     2|
+|15    |      d1          |dlatch_26   |     1|
+|16    |      d2          |dlatch_27   |     1|
+|17    |    m2            |mux_25      |     1|
+|18    |  \genblk1[4].pt  |Dregister_2 |     3|
+|19    |    DR            |DFF_20      |     2|
+|20    |      d1          |dlatch_22   |     1|
+|21    |      d2          |dlatch_23   |     1|
+|22    |    m2            |mux_21      |     1|
+|23    |  \genblk1[5].pt  |Dregister_3 |     3|
+|24    |    DR            |DFF_16      |     2|
+|25    |      d1          |dlatch_18   |     1|
+|26    |      d2          |dlatch_19   |     1|
+|27    |    m2            |mux_17      |     1|
+|28    |  \genblk1[6].pt  |Dregister_4 |     3|
+|29    |    DR            |DFF_12      |     2|
+|30    |      d1          |dlatch_14   |     1|
+|31    |      d2          |dlatch_15   |     1|
+|32    |    m2            |mux_13      |     1|
+|33    |  \genblk1[7].pt  |Dregister_5 |     3|
+|34    |    DR            |DFF_8       |     2|
+|35    |      d1          |dlatch_10   |     1|
+|36    |      d2          |dlatch_11   |     1|
+|37    |    m2            |mux_9       |     1|
+|38    |  pt0             |Dregister_6 |     3|
+|39    |    DR            |DFF         |     2|
+|40    |      d1          |dlatch      |     1|
+|41    |      d2          |dlatch_7    |     1|
+|42    |    m2            |mux         |     1|
++------+------------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2097.594 ; gain = 337.047 ; free physical = 123 ; free virtual = 15821
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 2097.594 ; gain = 212.375 ; free physical = 174 ; free virtual = 15873
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 2097.602 ; gain = 337.047 ; free physical = 173 ; free virtual = 15874
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 8 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2106.500 ; gain = 0.000 ; free physical = 126 ; free virtual = 15821
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LD => LDCE: 8 instances
+  LD => LDCE (inverted pins: G): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 2106.500 ; gain = 541.086 ; free physical = 218 ; free virtual = 15921
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2106.500 ; gain = 0.000 ; free physical = 210 ; free virtual = 15921
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.runs/synth_1/rotateLED.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file rotateLED_utilization_synth.rpt -pb rotateLED_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 31 15:18:23 2021...

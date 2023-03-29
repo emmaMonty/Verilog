@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sim_1/new/Test.v,1617641421,verilog,,,,Test,,,,,,,,
+/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sim_1/new/fullTest.v,1617641189,verilog,,,,fullTest,,,,,,,,
+/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sim_1/new/test.v,1617270122,verilog,,,,test,,,,,,,,
+/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sources_1/new/counter.v,1617464542,verilog,,/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sources_1/new/debouncer.v,,counter,,,,,,,,
+/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sources_1/new/debouncer.v,1618753172,verilog,,/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sources_1/new/mealy.v,,debouncer,,,,,,,,
+/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sources_1/new/mealy.v,1617313484,verilog,,/home/ecestudent/ECE2700/Lab6/debouncer/debouncer.srcs/sim_1/new/Test.v,,mealy,,,,,,,,

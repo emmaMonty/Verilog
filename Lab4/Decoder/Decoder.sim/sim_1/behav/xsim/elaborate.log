@@ -1,0 +1,19 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/ecestudent/tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 9650b317814841dfb2bff3d6789a6a2e --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DoubleSevenSegmentTest_behav xil_defaultlib.DoubleSevenSegmentTest xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.MUXarray_default
+Compiling module xil_defaultlib.decoder3_8
+Compiling module xil_defaultlib.decoder4_16
+Compiling module xil_defaultlib.NewSevenSegment
+Compiling module xil_defaultlib.ClockDivder(PRESCALER=50000)
+Compiling module xil_defaultlib.DoubleSevenSeg
+Compiling module xil_defaultlib.DoubleSevenSegmentTest
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot DoubleSevenSegmentTest_behav

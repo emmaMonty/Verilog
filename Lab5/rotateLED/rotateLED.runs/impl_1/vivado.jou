@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 31 15:18:29 2021
+# Process ID: 39591
+# Current directory: /home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.runs/impl_1
+# Command line: vivado -log rotateLED.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source rotateLED.tcl -notrace
+# Log file: /home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.runs/impl_1/rotateLED.vdi
+# Journal file: /home/ecestudent/ECE2700/Lab5/rotateLED/rotateLED.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source rotateLED.tcl -notrace

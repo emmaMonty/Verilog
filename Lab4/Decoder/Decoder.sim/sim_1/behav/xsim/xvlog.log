@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/Lab4/Decoder/Decoder.srcs/sources_1/imports/new/ClockDivder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClockDivder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/Lab4/Decoder/Decoder.srcs/sources_1/new/DoubleSevenSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleSevenSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/Lab4/Decoder/Decoder.srcs/sources_1/new/MUXarray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXarray
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/Lab4/Decoder/Decoder.srcs/sources_1/new/NewSevenSegment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NewSevenSegment
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/Lab4/Decoder/Decoder.srcs/sources_1/new/decoder3_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder3_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/Lab4/Decoder/Decoder.srcs/sources_1/new/decoder4_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder4_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/Lab4/Decoder/Decoder.srcs/sources_1/imports/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/Lab4/Decoder/Decoder.srcs/sim_1/new/DoubleSevenSegmentTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DoubleSevenSegmentTest

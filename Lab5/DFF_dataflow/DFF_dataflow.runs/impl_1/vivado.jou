@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar 25 02:51:19 2021
+# Process ID: 11830
+# Current directory: /home/ecestudent/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.runs/impl_1
+# Command line: vivado -log JKFF.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source JKFF.tcl -notrace
+# Log file: /home/ecestudent/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.runs/impl_1/JKFF.vdi
+# Journal file: /home/ecestudent/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source JKFF.tcl -notrace

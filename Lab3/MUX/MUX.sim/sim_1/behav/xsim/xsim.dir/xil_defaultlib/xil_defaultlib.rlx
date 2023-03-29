@@ -1,0 +1,14 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sim_1/new/CarryselectTest.v,1614245759,verilog,,,,CarryselectTest,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sim_1/new/Test16.v,1614252374,verilog,,,,Test16,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sim_1/new/muxTest.v,1613639207,verilog,,,,muxTest,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/CarrySelect16.v,1614252518,verilog,,/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/carrySelectaddder.v,,CarrySelect16,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/Ripple16.v,1614251101,verilog,,/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/fulladder.v,,Ripple16,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/carrySelectaddder.v,1614248762,verilog,,/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/fulladder.v,,carrySelectaddder,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/fulladder.v,1614244396,verilog,,/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/mux.v,,fulladder,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/mux.v,1613639141,verilog,,/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/tRipplecarry.v,,mux,,,,,,,,
+/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sources_1/new/tRipplecarry.v,1614243797,verilog,,/home/ecestudent/ECE2700/Lab3/MUX/MUX.srcs/sim_1/new/Test16.v,,Ripplecarry,,,,,,,,

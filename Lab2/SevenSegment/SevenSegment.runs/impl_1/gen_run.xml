@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1619610881">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="SevenSegmentTop.drc"/>
+  <File Type="BG-BGN" Name="SevenSegmentTop.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="SevenSegmentTop.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="SevenSegmentTop.ltx"/>
+  <File Type="BITSTR-MMI" Name="SevenSegmentTop.mmi"/>
+  <File Type="BITSTR-BMM" Name="SevenSegmentTop_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="SevenSegmentTop.nky"/>
+  <File Type="BITSTR-RBT" Name="SevenSegmentTop.rbt"/>
+  <File Type="BITSTR-MSK" Name="SevenSegmentTop.msk"/>
+  <File Type="BG-BIN" Name="SevenSegmentTop.bin"/>
+  <File Type="BG-BIT" Name="SevenSegmentTop.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="SevenSegmentTop_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="SevenSegmentTop_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="SevenSegmentTop_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="SevenSegmentTop.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="SevenSegmentTop_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="SevenSegmentTop_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="SevenSegmentTop_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="SevenSegmentTop_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="SevenSegmentTop_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="SevenSegmentTop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="SevenSegmentTop_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="SevenSegmentTop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="SevenSegmentTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="SevenSegmentTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="SevenSegmentTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="SevenSegmentTop_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="SevenSegmentTop_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="SevenSegmentTop_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="SevenSegmentTop_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="SevenSegmentTop_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SevenSegmentTop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SevenSegmentTop_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="SevenSegmentTop_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="SevenSegmentTop_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="SevenSegmentTop_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="SevenSegmentTop_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="SevenSegmentTop_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="SevenSegmentTop_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="SevenSegmentTop_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="SevenSegmentTop_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="SevenSegmentTop_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="SevenSegmentTop_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="SevenSegmentTop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SevenSegmentTop_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="SevenSegmentTop_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="SevenSegmentTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="SevenSegmentTop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="SevenSegmentTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="SevenSegmentTop_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="SevenSegmentTop_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="SevenSegmentTop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="SevenSegmentTop_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="SevenSegmentTop_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="SevenSegmentTop_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="SevenSegmentTop_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="SevenSegmentTop_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="SevenSegmentTop_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="SevenSegmentTop.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="SevenSegmentTop_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="SevenSegmentTop_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="SevenSegmentTop_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="SevenSegmentTop_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="SevenSegmentTop_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="SevenSegmentTop_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="SevenSegmentTop_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="SevenSegmentTop.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/SevenSegementTruthTable.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SevenSegmentTop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SevenSegmentCombinational.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SevenSegmentTop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1611823693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

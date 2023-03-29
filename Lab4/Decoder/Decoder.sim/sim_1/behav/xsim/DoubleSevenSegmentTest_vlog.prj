@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Decoder.srcs/sources_1/imports/new/ClockDivder.v" \
+"../../../../Decoder.srcs/sources_1/new/DoubleSevenSeg.v" \
+"../../../../Decoder.srcs/sources_1/new/MUXarray.v" \
+"../../../../Decoder.srcs/sources_1/new/NewSevenSegment.v" \
+"../../../../Decoder.srcs/sources_1/new/decoder3_8.v" \
+"../../../../Decoder.srcs/sources_1/new/decoder4_16.v" \
+"../../../../Decoder.srcs/sources_1/imports/new/mux.v" \
+"../../../../Decoder.srcs/sim_1/new/DoubleSevenSegmentTest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

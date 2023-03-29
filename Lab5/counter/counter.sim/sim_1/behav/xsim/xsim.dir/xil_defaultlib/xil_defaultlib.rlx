@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/ecestudent/ECE2700/Lab5/counter/counter.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sim_1/new/test.v,1617217150,verilog,,,,test,,,,,,,,
+/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/imports/ECE2700/Lab2/ClockDivider/ClockDivider.srcs/sources_1/new/ClockDivder.v,1613029094,verilog,,/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/DFF.v,,ClockDivder,,,,,,,,
+/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/DFF.v,1616061233,verilog,,/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/JKFF.v,,DFF,,,,,,,,
+/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/JKFF.v,1616661943,verilog,,/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/new/counter.v,,JKFF,,,,,,,,
+/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/dlatch.v,1616059513,verilog,,/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sim_1/new/test.v,,dlatch,,,,,,,,
+/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/new/counter.v,1617263805,verilog,,/home/ecestudent/ECE2700/Lab5/counter/counter.srcs/sources_1/imports/ECE2700/Lab5/DFF_dataflow/DFF_dataflow.srcs/sources_1/new/dlatch.v,,counter,,,,,,,,

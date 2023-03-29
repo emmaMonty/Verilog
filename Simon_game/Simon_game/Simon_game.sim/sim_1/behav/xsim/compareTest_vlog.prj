@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Simon_game.srcs/sources_1/new/comparer.v" \
+"../../../../Simon_game.srcs/sources_1/new/memory.v" \
+"../../../../Simon_game.srcs/sim_1/new/compareTest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

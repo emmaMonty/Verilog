@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb 25 04:06:51 2021
+# Process ID: 40009
+# Current directory: /home/ecestudent/ECE2700/Lab3/MUX/MUX.runs/impl_1
+# Command line: vivado -log Ripplecarry.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Ripplecarry.tcl -notrace
+# Log file: /home/ecestudent/ECE2700/Lab3/MUX/MUX.runs/impl_1/Ripplecarry.vdi
+# Journal file: /home/ecestudent/ECE2700/Lab3/MUX/MUX.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Ripplecarry.tcl -notrace
