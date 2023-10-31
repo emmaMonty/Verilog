@@ -1,1 +1,1 @@
-This project is an audio sythinzer using the bayas 3 board with using the audio pmod.
+This project is an audio sythinzer using the basys 3 board with using the audio pmod.
